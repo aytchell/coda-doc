@@ -7,28 +7,24 @@ VPATH = @srcdir@
 
 
 CH=8
-MANPAGEFILES = au.8 \
-               pdbtool.8\
-               auth2.8 \
-               backup.8 \
-               bldvldb.8 \
-               createvol.8 \
-               createvol_rep.8 \
-               fsck-coda.8 \
-               initpw.8 \
-	       makeftree.8 \
-               merge.8 \
-               norton.8 \
-               purgevol.8 \
-               purgevol_rep.8 \
-               readdump.8 \
-               replay.8 \
-               codasrv.8 \
-               startserver.8 \
-               updateclnt.8 \
-               updatesrv.8 \
-               venus.8 \
-               volutil.8 \
-               vutil.8
+MANPAGEFILES =          \
+    auth2.8             \
+    coda-client-setup.8 \
+    codamergedump.8     \
+    codareaddump.8      \
+    codasrv.8           \
+    createvol_rep.8     \
+    initpw.8            \
+    norton.8            \
+    pdbtool.8           \
+    purgevol_rep.8      \
+    startserver.8       \
+    updateclnt.8        \
+    updatesrv.8         \
+    venus.8             \
+    vice-setup.8        \
+    volmunge.8          \
+    volutil.8           \
+    vutil.8
 
 include ../../Makerules

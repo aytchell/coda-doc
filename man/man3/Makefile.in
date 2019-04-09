@@ -6,8 +6,7 @@ VPATH = @srcdir@
 
 SUBDIRS = 
 CH=3
-MANPAGEFILES = histo.3 \
-               timing.3
+MANPAGEFILES = 
 
 
 include ../../Makerules
