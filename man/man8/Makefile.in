@@ -9,6 +9,7 @@ VPATH = @srcdir@
 CH=8
 MANPAGEFILES =          \
     auth2.8             \
+    bldvldb.sh.8        \
     coda-client-setup.8 \
     codamergedump.8     \
     codareaddump.8      \
